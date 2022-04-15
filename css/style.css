@@ -1,0 +1,352 @@
+body{
+    background-color: rgb(248, 248, 242);
+}
+ 
+/*header*/
+header{
+    background-color: #3c99dc ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+.logo1{
+    width: 50px;
+}
+nav{
+    width: 40%;
+}
+
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+    
+    
+
+
+/*FIN INDEX*/
+
+/* main index */
+.container1{
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    box-shadow:  1px 5px 10px gray;
+    background-color: rgb(230, 224, 224);
+}
+
+
+.container1 h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
+ }
+
+ .container1 img{
+    width: 100%;
+    height: 400px;
+}
+
+/*container 2*/
+.container2{
+    width: 70%;
+    padding: 1%;
+    /*GRID */
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 10% 25% 10%; 
+    gap: 5px 12px; 
+    grid-template-areas: 
+        "header"
+        "presentacion"
+        "contenido"
+        "footer"
+    ; 
+
+}
+
+/*NOMBRE DE LAS AREAS*/
+header{
+    grid-area: header;
+
+}
+
+.container1{
+    grid-area: presentacion;
+}
+
+.container2{
+    grid-area: contenido;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+.imagen3{
+    width: 700px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow:  1px 5px 10px gray;
+}
+
+
+main{
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.imagen4{
+    border-radius: 25px;
+    box-shadow:  1px 5px 10px gray;
+    
+}
+/* footer index*/
+footer{
+        height: 8rem;
+        background: rgb(224, 219, 219);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* noticias html*/
+
+
+.container__af h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
+}
+
+.img__presidente{
+      overflow: hidden;
+      position: relative;
+      border-radius: 15px;
+      box-shadow:  1px 5px 10px gray;
+}
+
+.container__af p{
+    text-decoration: none;
+}
+
+.container__rtc img{
+    border-radius: 15px;
+    box-shadow:  1px 5px 10px gray;
+    height: auto;
+    width: auto;
+    max-width: 320px;
+    max-height: 320px  
+}
+
+
+
+
+/*NOSOTROS MAIN*/
+
+
+.container__nosotros h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+}
+
+.container__nosotros img{
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container__nosotros p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300px;
+
+}
+
+/*inicio economia*/
+h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+}
+
+.clasicos{
+    /*GRID*/
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 10% 15%;
+    gap: 20px;
+    grid-template-areas:
+        "header"
+        "contenido"
+        "footer"
+         ;
+  }
+
+header{
+    grid-area: header;
+}
+
+.clasicos{
+    grid-area: contenido;
+}
+
+footer{
+    grid-area: footer;
+}
+.container_adamsmith{
+    background-color: white;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+}
+
+.container_adamsmith h2{
+    color: black;
+}
+
+.container_adamsmith img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container__david{
+    background-color: white;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+}
+
+.container__david h2{
+    color: black;
+}
+
+.container__david img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container__jbsay{
+    background-color: rgb(255, 252, 252);
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+}
+
+.container__jbsay img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container__jbsay h2{
+    color: black;
+}
+
+
+/*inicio adam smith*/
+
+.container__eco1 h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+}
+
+.container__eco1 img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+/*Contacto*/
+
+.container__contact{
+    background-image: url(../medios/galaxia.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+    text-decoration: #fff;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
