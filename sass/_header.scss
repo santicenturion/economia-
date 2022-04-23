@@ -1,0 +1,28 @@
+/* estilos del header */
+header{
+    background-color: #3c99dc ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    .logo1{
+        width: 50px;
+    }
+    nav{
+        width: 40%;
+        .menu1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Oswald', sans-serif;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+/* FIN HEADER */

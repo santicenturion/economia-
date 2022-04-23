@@ -3,36 +3,10 @@ body{
 }
  
 /*header*/
-header{
-    background-color: #3c99dc ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 15px;
-}
-.logo1{
-    width: 50px;
-}
-nav{
-    width: 40%;
-}
 
-.menu1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Oswald', sans-serif;
-}
 
-li{
-    list-style: none;
-    
-}
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 
     
@@ -41,83 +15,7 @@ a{
 
 /*FIN INDEX*/
 
-/* main index */
-.container1{
-    overflow: hidden;
-    position: relative;
-    border-radius: 25px;
-    box-shadow:  1px 5px 10px gray;
-    background-color: rgb(230, 224, 224);
-}
 
-
-.container1 h1{
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    text-shadow: 0px 0px 0.8px rgba(0, 0, 0, 0);
- }
-
- .container1 img{
-    width: 100%;
-    height: 400px;
-}
-
-/*container 2*/
-.container2{
-    width: 70%;
-    padding: 1%;
-    /*GRID */
-    display: grid; 
-    grid-template-columns: 1fr 1fr ; 
-    grid-template-rows: 10% 25% 10%; 
-    gap: 5px 12px; 
-    grid-template-areas: 
-        "header"
-        "presentacion"
-        "contenido"
-        "footer"
-    ; 
-
-}
-
-/*NOMBRE DE LAS AREAS*/
-header{
-    grid-area: header;
-
-}
-
-.container1{
-    grid-area: presentacion;
-}
-
-.container2{
-    grid-area: contenido;
-}
-
-footer{
-    grid-area: footer;
-}
-
-
-
-.imagen3{
-    width: 700px;
-    height: 400px;
-    border-radius: 25px;
-    box-shadow:  1px 5px 10px gray;
-}
-
-
-main{
-    font-family: 'Inter', sans-serif;
-font-family: 'Open Sans', sans-serif;
-}
-
-.imagen4{
-    border-radius: 25px;
-    box-shadow:  1px 5px 10px gray;
-    
-}
 /* FOOTER*/
 footer{
         height: 8rem;
