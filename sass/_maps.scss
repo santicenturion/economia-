@@ -1,0 +1,7 @@
+$estilos: (
+    header: #3c99dc
+);
+
+header {
+    background-color: map-get($stilos, header);
+}

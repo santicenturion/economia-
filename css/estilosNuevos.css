@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f8f2; }
+  background-color: #ffffff ; }
 
 /* estilos del header */
 header {
@@ -51,7 +51,10 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 25% 10%;
     gap: 5px 12px;
-    grid-template-areas: "header" "presentacion" "contenido" "footer";
+    grid-template-areas: "header"
+ "presentacion"
+ "contenido"
+ "footer";
     /*NOMBRE DE LAS AREAS*/ }
     main .container2 header {
       grid-area: header; }
@@ -73,7 +76,7 @@ main {
 /* footer */
 footer {
   height: 8rem;
-  background: #e0dbdb;
+  background: #3c99dc;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,0 +1,12 @@
+@mixin sizes($width, $height) {
+    width: $widht;
+    height: $height;
+}
+
+@mixin centrar() {
+    display: flex;
+}
+.mixin{
+    @include sizes(50px, 50px)
+    @include centrar()
+}
