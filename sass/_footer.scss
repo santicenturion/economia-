@@ -2,7 +2,7 @@
 
 footer{
     height: 8rem;
-    background: rgb(224, 219, 219);
+    background: #ac3cdc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,8 +16,11 @@ footer{
          ul{
             display: flex;
             flex-wrap: wrap;
-             a{
-                display: flex;
+            li {
+                list-style: none;
+            }
+            a{
+            display: flex;
                 justify-content: center;
                 align-items: center;
                 font-size: 2rem;

@@ -7,6 +7,6 @@
     display: flex;
 }
 .mixin{
-    @include sizes(50px, 50px)
-    @include centrar()
+    @include sizes(50px, 50px);
+    @include centrar();
 }
