@@ -72,6 +72,9 @@ main {
     main .container2 .imagen4 {
       border-radius: 25px;
       box-shadow: 1px 5px 10px gray; }
+      main .container2 img {
+        width: 50%;
+        height: 400px; }
 
 /* footer */
 footer {
